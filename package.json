@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/robertvitoriano/web-scrapping-playground/issues"
   },
-  "homepage": "https://github.com/robertvitoriano/web-scrapping-playground#readme"
+  "homepage": "https://github.com/robertvitoriano/web-scrapping-playground#readme",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
 }
