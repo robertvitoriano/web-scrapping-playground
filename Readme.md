@@ -14,13 +14,13 @@ Deploy: Heroku
 
   __tests__
   src
-  --config
-  --interfaces
-  --database
-  --routes
-  --modules
-   --entities
-   --repositories
-   --useCases
-     --instagram
-     --facebook
+  +--config
+  +--interfaces
+  +--database
+  +--routes
+  +--modules
+  | +--entities
+  | +--repositories
+  | +--useCases
+    |+--instagram
+    |+--facebook
