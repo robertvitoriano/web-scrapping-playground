@@ -12,5 +12,15 @@ Stack: mongodb, node, typescript, jest
 
 Deploy: Heroku
 
-
-  
+  __tests__
+  src
+  --config
+  --interfaces
+  --database
+  --routes
+  --modules
+   --entities
+   --repositories
+   --useCases
+     --instagram
+     --facebook
