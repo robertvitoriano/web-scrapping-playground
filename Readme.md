@@ -12,15 +12,17 @@ Stack: mongodb, node, typescript, jest
 
 Deploy: Heroku
 
-  __tests__
-  src
-  +--config
-  +--interfaces
-  +--database
-  +--routes
-  +--modules
-  | +--entities
-  | +--repositories
-  | +--useCases
-    |+--instagram
-    |+--facebook
+ 📦src
+ ┣ 📂Interfaces
+ ┃ ┣ 📜index.ts
+ ┃ ┗ 📜IPost.ts
+ ┣ 📂modules
+ ┃ ┣ 📂entities
+ ┃ ┃ ┣ 📜Account.ts
+ ┃ ┃ ┣ 📜Category.ts
+ ┃ ┃ ┗ 📜Post.ts
+ ┃ ┣ 📂repositories
+ ┃ ┗ 📂useCases
+ ┃ ┃ ┣ 📂facebook
+ ┃ ┃ ┗ 📂instagram
+ ┗ 📜index.ts
